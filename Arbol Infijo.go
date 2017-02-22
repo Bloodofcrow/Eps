@@ -106,5 +106,6 @@ func Insertar(arbolito *Arbol, valor []string) *Arbol {
 
 func main(){
 	cadena := "5 3 + 2 - 3 2 * +"
-	io.Println(cadena)
+	a := NuevoArbol(cadena)
+	io.Println(a)
 }
